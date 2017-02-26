@@ -24,7 +24,7 @@ class MyThreadPrintout(threading.Thread):
 if __name__ == '__main__':
     print("Hello world!")
 
-    my_lock = threading.Lock()
+    #my_lock = threading.Lock()
     t1 = MyThreadPrintout("Thread1", 1)
     t2 = MyThreadPrintout("Thread2", 1.1)
     #t3 = threadPrintout("Thread3", 1)
