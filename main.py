@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     #my_lock = threading.Lock()
     t1 = MyThreadPrintout("Thread1", 1)
-    t2 = MyThreadPrintout("Thread2", 1.1)
+    t2 = MyThreadPrintout("Thread2", 2)
     #t3 = threadPrintout("Thread3", 1)
 
     threads = []
